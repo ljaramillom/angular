@@ -1,0 +1,49 @@
+<?xml version="1.0"?>
+<testsuite name="Chrome 68.0.3440 (Mac OS X 10.13.6)" package="" timestamp="2018-09-03T15:54:23" id="0" hostname="AMAC02VT0D3HV2D" tests="37" errors="0" failures="0" time="0.297">
+  <properties>
+    <property name="browser.fullName" value="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36"/>
+  </properties>
+  <testcase name="AppComponent should create the app" time="0.065" classname="Chrome_68_0_3440_(Mac_OS_X_10_13_6).AppComponent"/>
+  <testcase name="AppComponent should have as title 'app'" time="0.025" classname="Chrome_68_0_3440_(Mac_OS_X_10_13_6).AppComponent"/>
+  <testcase name="AppComponent Debe de tener un router-outlet" time="0.013" classname="Chrome_68_0_3440_(Mac_OS_X_10_13_6).AppComponent"/>
+  <testcase name="NavbarComponent should create" time="0.033" classname="Chrome_68_0_3440_(Mac_OS_X_10_13_6).NavbarComponent"/>
+  <testcase name="NavbarComponent Debe de tener un link a la página de médicos" time="0.024" classname="Chrome_68_0_3440_(Mac_OS_X_10_13_6).NavbarComponent"/>
+  <testcase name="RouterMedicoComponent Debe de redireccionar a Médico cuando se guarde" time="0.012" classname="Chrome_68_0_3440_(Mac_OS_X_10_13_6).RouterMedicoComponent"/>
+  <testcase name="RouterMedicoComponent Debe de colocar el id = nuevo" time="0.011" classname="Chrome_68_0_3440_(Mac_OS_X_10_13_6).RouterMedicoComponent"/>
+  <testcase name="Rutas principales Debe de existir la ruta /medico/:id" time="0" classname="Chrome_68_0_3440_(Mac_OS_X_10_13_6).Rutas principales"/>
+  <testcase name="Pruebas de arreglos Debe de retornar al menos 3 robots" time="0" classname="Chrome_68_0_3440_(Mac_OS_X_10_13_6).Pruebas de arreglos"/>
+  <testcase name="Pruebas de arreglos Debe de existir MegaMan y Ultron" time="0" classname="Chrome_68_0_3440_(Mac_OS_X_10_13_6).Pruebas de arreglos"/>
+  <testcase name="Pruebas de Booleanos Debe de retornar true" time="0" classname="Chrome_68_0_3440_(Mac_OS_X_10_13_6).Pruebas de Booleanos"/>
+  <testcase name="Pruebas de clase Debe de retornar 80 de hp, si recibe 20 de daño" time="0" classname="Chrome_68_0_3440_(Mac_OS_X_10_13_6).Pruebas de clase"/>
+  <testcase name="Pruebas de clase Debe de retornar 50 de hp, si recibe 50 de daño" time="0" classname="Chrome_68_0_3440_(Mac_OS_X_10_13_6).Pruebas de clase"/>
+  <testcase name="Pruebas de clase Debe de retornar 0 de hp, si recibe 100 de daño o más" time="0.001" classname="Chrome_68_0_3440_(Mac_OS_X_10_13_6).Pruebas de clase"/>
+  <testcase name="Pruebas de números Debe de retornar 100, si el número ingresado es mayor a 100" time="0" classname="Chrome_68_0_3440_(Mac_OS_X_10_13_6).Pruebas de números"/>
+  <testcase name="Pruebas de números Debe de retornar el número ingresado + 1, si no es mayor a 100" time="0" classname="Chrome_68_0_3440_(Mac_OS_X_10_13_6).Pruebas de números"/>
+  <testcase name="Pruebas de strings Debe de regresar un string" time="0" classname="Chrome_68_0_3440_(Mac_OS_X_10_13_6).Pruebas de strings"/>
+  <testcase name="Pruebas de strings Debe de retornar un saludo con el nombre enviado" time="0" classname="Chrome_68_0_3440_(Mac_OS_X_10_13_6).Pruebas de strings"/>
+  <testcase name="MedicosComponent Init: Debe de cargar los médicos" time="0" classname="Chrome_68_0_3440_(Mac_OS_X_10_13_6).MedicosComponent"/>
+  <testcase name="MedicosComponent Debe de llamar al servidor para agregar un médico" time="0.001" classname="Chrome_68_0_3440_(Mac_OS_X_10_13_6).MedicosComponent"/>
+  <testcase name="MedicosComponent Debe de agregar un nuevo médico al arreglo de médicos" time="0.001" classname="Chrome_68_0_3440_(Mac_OS_X_10_13_6).MedicosComponent"/>
+  <testcase name="MedicosComponent Si falla la adicion, la propiedad mensajeError, debe ser igual al error del servicio" time="0" classname="Chrome_68_0_3440_(Mac_OS_X_10_13_6).MedicosComponent"/>
+  <testcase name="MedicosComponent Debe de llamar al servidor para borrar un médico" time="0.001" classname="Chrome_68_0_3440_(Mac_OS_X_10_13_6).MedicosComponent"/>
+  <testcase name="MedicosComponent NO debe de llamar al servidor para borrar un médico" time="0" classname="Chrome_68_0_3440_(Mac_OS_X_10_13_6).MedicosComponent"/>
+  <testcase name="Jugador 2 Emit Debe de emitir un evento cuando recibe daño" time="0" classname="Chrome_68_0_3440_(Mac_OS_X_10_13_6).Jugador 2 Emit"/>
+  <testcase name="Jugador 2 Emit Debe de emitir un evento cuando recibe daño y sobrevivir si es menos de 100" time="0" classname="Chrome_68_0_3440_(Mac_OS_X_10_13_6).Jugador 2 Emit"/>
+  <testcase name="Formularios Debe de crear un formulario con dos campos, email y password" time="0.001" classname="Chrome_68_0_3440_(Mac_OS_X_10_13_6).Formularios"/>
+  <testcase name="Formularios El email debe de ser obligatorio" time="0.001" classname="Chrome_68_0_3440_(Mac_OS_X_10_13_6).Formularios"/>
+  <testcase name="Formularios El email debe de ser un correo válido" time="0.001" classname="Chrome_68_0_3440_(Mac_OS_X_10_13_6).Formularios"/>
+  <testcase name="HospitalComponent Debe de crear un HospitalComponent" time="0.01" classname="Chrome_68_0_3440_(Mac_OS_X_10_13_6).HospitalComponent"/>
+  <testcase name="Incremendator Component Debe de mostrar la leyenda" time="0.027" classname="Chrome_68_0_3440_(Mac_OS_X_10_13_6).Incremendator Component"/>
+  <testcase name="Incremendator Component Debe de mostrar en el input el valor del progreso" time="0.019" classname="Chrome_68_0_3440_(Mac_OS_X_10_13_6).Incremendator Component"/>
+  <testcase name="Incremendator Component Debe de incrementar/decrementar en 5, con un click en el botón" time="0.02" classname="Chrome_68_0_3440_(Mac_OS_X_10_13_6).Incremendator Component"/>
+  <testcase name="Incremendator Component En el titulo del componente, debe de mostrar el progreso" time="0.013" classname="Chrome_68_0_3440_(Mac_OS_X_10_13_6).Incremendator Component"/>
+  <testcase name="Incrementador Component Unit No debe de pasar de 100 el progreso" time="0" classname="Chrome_68_0_3440_(Mac_OS_X_10_13_6).Incrementador Component Unit"/>
+  <testcase name="Medico Component Debe de crearse el componente" time="0.01" classname="Chrome_68_0_3440_(Mac_OS_X_10_13_6).Medico Component"/>
+  <testcase name="Medico Component Debe de retornar el nombre del médico" time="0.008" classname="Chrome_68_0_3440_(Mac_OS_X_10_13_6).Medico Component"/>
+  <system-out>
+    <![CDATA[Chrome 68.0.3440 (Mac OS X 10.13.6) LOG: <input class="form-control ng-untouched ng-pristine ng-valid" max="100" min="1" name="progreso" type="number" ng-reflect-name="progreso" ng-reflect-model="55">
+
+]]>
+  </system-out>
+  <system-err/>
+</testsuite>

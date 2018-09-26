@@ -1,0 +1,49 @@
+<?xml version="1.0"?>
+<testsuite name="PhantomJS 2.1.1 (Mac OS X 0.0.0)" package="" timestamp="2018-09-04T13:26:23" id="0" hostname="AMAC02VT0D3HV2D" tests="37" errors="0" failures="0" time="0.551">
+  <properties>
+    <property name="browser.fullName" value="Mozilla/5.0 (Macintosh; Intel Mac OS X) AppleWebKit/538.1 (KHTML, like Gecko) PhantomJS/2.1.1 Safari/538.1"/>
+  </properties>
+  <testcase name="AppComponent should create the app" time="0.118" classname="PhantomJS_2_1_1_(Mac_OS_X_0_0_0).AppComponent"/>
+  <testcase name="AppComponent should have as title 'app'" time="0.036" classname="PhantomJS_2_1_1_(Mac_OS_X_0_0_0).AppComponent"/>
+  <testcase name="AppComponent Debe de tener un router-outlet" time="0.033" classname="PhantomJS_2_1_1_(Mac_OS_X_0_0_0).AppComponent"/>
+  <testcase name="NavbarComponent should create" time="0.056" classname="PhantomJS_2_1_1_(Mac_OS_X_0_0_0).NavbarComponent"/>
+  <testcase name="NavbarComponent Debe de tener un link a la página de médicos" time="0.024" classname="PhantomJS_2_1_1_(Mac_OS_X_0_0_0).NavbarComponent"/>
+  <testcase name="RouterMedicoComponent Debe de redireccionar a Médico cuando se guarde" time="0.021" classname="PhantomJS_2_1_1_(Mac_OS_X_0_0_0).RouterMedicoComponent"/>
+  <testcase name="RouterMedicoComponent Debe de colocar el id = nuevo" time="0.013" classname="PhantomJS_2_1_1_(Mac_OS_X_0_0_0).RouterMedicoComponent"/>
+  <testcase name="Rutas principales Debe de existir la ruta /medico/:id" time="0.001" classname="PhantomJS_2_1_1_(Mac_OS_X_0_0_0).Rutas principales"/>
+  <testcase name="Pruebas de arreglos Debe de retornar al menos 3 robots" time="0" classname="PhantomJS_2_1_1_(Mac_OS_X_0_0_0).Pruebas de arreglos"/>
+  <testcase name="Pruebas de arreglos Debe de existir MegaMan y Ultron" time="0" classname="PhantomJS_2_1_1_(Mac_OS_X_0_0_0).Pruebas de arreglos"/>
+  <testcase name="Pruebas de Booleanos Debe de retornar true" time="0" classname="PhantomJS_2_1_1_(Mac_OS_X_0_0_0).Pruebas de Booleanos"/>
+  <testcase name="Pruebas de clase Debe de retornar 80 de hp, si recibe 20 de daño" time="0" classname="PhantomJS_2_1_1_(Mac_OS_X_0_0_0).Pruebas de clase"/>
+  <testcase name="Pruebas de clase Debe de retornar 50 de hp, si recibe 50 de daño" time="0" classname="PhantomJS_2_1_1_(Mac_OS_X_0_0_0).Pruebas de clase"/>
+  <testcase name="Pruebas de clase Debe de retornar 0 de hp, si recibe 100 de daño o más" time="0.001" classname="PhantomJS_2_1_1_(Mac_OS_X_0_0_0).Pruebas de clase"/>
+  <testcase name="Pruebas de números Debe de retornar 100, si el número ingresado es mayor a 100" time="0" classname="PhantomJS_2_1_1_(Mac_OS_X_0_0_0).Pruebas de números"/>
+  <testcase name="Pruebas de números Debe de retornar el número ingresado + 1, si no es mayor a 100" time="0" classname="PhantomJS_2_1_1_(Mac_OS_X_0_0_0).Pruebas de números"/>
+  <testcase name="Pruebas de strings Debe de regresar un string" time="0.001" classname="PhantomJS_2_1_1_(Mac_OS_X_0_0_0).Pruebas de strings"/>
+  <testcase name="Pruebas de strings Debe de retornar un saludo con el nombre enviado" time="0" classname="PhantomJS_2_1_1_(Mac_OS_X_0_0_0).Pruebas de strings"/>
+  <testcase name="MedicosComponent Init: Debe de cargar los médicos" time="0.004" classname="PhantomJS_2_1_1_(Mac_OS_X_0_0_0).MedicosComponent"/>
+  <testcase name="MedicosComponent Debe de llamar al servidor para agregar un médico" time="0.001" classname="PhantomJS_2_1_1_(Mac_OS_X_0_0_0).MedicosComponent"/>
+  <testcase name="MedicosComponent Debe de agregar un nuevo médico al arreglo de médicos" time="0.002" classname="PhantomJS_2_1_1_(Mac_OS_X_0_0_0).MedicosComponent"/>
+  <testcase name="MedicosComponent Si falla la adicion, la propiedad mensajeError, debe ser igual al error del servicio" time="0.005" classname="PhantomJS_2_1_1_(Mac_OS_X_0_0_0).MedicosComponent"/>
+  <testcase name="MedicosComponent Debe de llamar al servidor para borrar un médico" time="0" classname="PhantomJS_2_1_1_(Mac_OS_X_0_0_0).MedicosComponent"/>
+  <testcase name="MedicosComponent NO debe de llamar al servidor para borrar un médico" time="0" classname="PhantomJS_2_1_1_(Mac_OS_X_0_0_0).MedicosComponent"/>
+  <testcase name="Jugador 2 Emit Debe de emitir un evento cuando recibe daño" time="0" classname="PhantomJS_2_1_1_(Mac_OS_X_0_0_0).Jugador 2 Emit"/>
+  <testcase name="Jugador 2 Emit Debe de emitir un evento cuando recibe daño y sobrevivir si es menos de 100" time="0.001" classname="PhantomJS_2_1_1_(Mac_OS_X_0_0_0).Jugador 2 Emit"/>
+  <testcase name="Formularios Debe de crear un formulario con dos campos, email y password" time="0.002" classname="PhantomJS_2_1_1_(Mac_OS_X_0_0_0).Formularios"/>
+  <testcase name="Formularios El email debe de ser obligatorio" time="0" classname="PhantomJS_2_1_1_(Mac_OS_X_0_0_0).Formularios"/>
+  <testcase name="Formularios El email debe de ser un correo válido" time="0.002" classname="PhantomJS_2_1_1_(Mac_OS_X_0_0_0).Formularios"/>
+  <testcase name="HospitalComponent Debe de crear un HospitalComponent" time="0.022" classname="PhantomJS_2_1_1_(Mac_OS_X_0_0_0).HospitalComponent"/>
+  <testcase name="Incremendator Component Debe de mostrar la leyenda" time="0.072" classname="PhantomJS_2_1_1_(Mac_OS_X_0_0_0).Incremendator Component"/>
+  <testcase name="Incremendator Component Debe de mostrar en el input el valor del progreso" time="0.034" classname="PhantomJS_2_1_1_(Mac_OS_X_0_0_0).Incremendator Component"/>
+  <testcase name="Incremendator Component Debe de incrementar/decrementar en 5, con un click en el botón" time="0.034" classname="PhantomJS_2_1_1_(Mac_OS_X_0_0_0).Incremendator Component"/>
+  <testcase name="Incremendator Component En el titulo del componente, debe de mostrar el progreso" time="0.029" classname="PhantomJS_2_1_1_(Mac_OS_X_0_0_0).Incremendator Component"/>
+  <testcase name="Incrementador Component Unit No debe de pasar de 100 el progreso" time="0" classname="PhantomJS_2_1_1_(Mac_OS_X_0_0_0).Incrementador Component Unit"/>
+  <testcase name="Medico Component Debe de crearse el componente" time="0.029" classname="PhantomJS_2_1_1_(Mac_OS_X_0_0_0).Medico Component"/>
+  <testcase name="Medico Component Debe de retornar el nombre del médico" time="0.01" classname="PhantomJS_2_1_1_(Mac_OS_X_0_0_0).Medico Component"/>
+  <system-out>
+    <![CDATA[PhantomJS 2.1.1 (Mac OS X 0.0.0) LOG: <input class="form-control ng-untouched ng-pristine ng-valid" max="100" min="1" name="progreso" type="number" ng-reflect-name="progreso" ng-reflect-model="55">
+
+]]>
+  </system-out>
+  <system-err/>
+</testsuite>
